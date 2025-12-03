@@ -16,6 +16,7 @@ env:
   UTILS_SECRET: 123456
   SLACK_VERIFICATION_TOKEN: 123456
   SMTP_USERNAME: localhost
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 
 jobs:
   build:
