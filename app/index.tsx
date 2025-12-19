@@ -1,5 +1,5 @@
 // oxlint-disable-next-line import/no-unresolved
-import "vite/modulepreload-polyfill";
+import "@voidzero-dev/vite-plus/modulepreload-polyfill";
 import { LazyMotion } from "framer-motion";
 import { KBarProvider } from "kbar";
 import { Provider } from "mobx-react";
